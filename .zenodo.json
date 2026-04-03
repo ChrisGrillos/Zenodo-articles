@@ -1,0 +1,18 @@
+{
+  "title": "Zenodo-articles: Cutting edge Technology routes to experiment down",
+  "description": "A collection of articles and resources on cutting edge technology routes to experiment down, archived and made citable via Zenodo.",
+  "creators": [
+    {
+      "name": "Grillos, Chris",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "technology",
+    "research",
+    "articles"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open"
+}

@@ -1,0 +1,24 @@
+name: Zenodo Release Reminder
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remind to update DOI badge
+        run: |
+          echo "=========================================="
+          echo "  Release published: ${{ github.event.release.tag_name }}"
+          echo "=========================================="
+          echo ""
+          echo "Zenodo will now automatically archive this release and mint a DOI."
+          echo ""
+          echo "Next steps:"
+          echo "  1. Visit https://zenodo.org/me/uploads to see your new Zenodo record."
+          echo "  2. Copy the DOI badge URL from Zenodo."
+          echo "  3. Update the DOI badge in README.md to reflect the new DOI."
+          echo "  4. Update CITATION.cff with the new DOI and release date."
+          echo "=========================================="
