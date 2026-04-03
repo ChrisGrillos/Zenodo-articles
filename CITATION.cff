@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Zenodo-articles: Cutting edge Technology routes to experiment down"
+authors:
+  - family-names: Grillos
+    given-names: Chris
+repository-code: "https://github.com/ChrisGrillos/Zenodo-articles"
+url: "https://zenodo.org/me/uploads"
+license: MIT
+type: software
+abstract: >
+  A collection of articles and resources on cutting edge technology routes
+  to experiment down, archived and made citable via Zenodo.
+keywords:
+  - technology
+  - research
+  - articles
